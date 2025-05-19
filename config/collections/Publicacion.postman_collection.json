@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "d980fcc2-3de9-48f5-a1f0-c45903cef8ed",
+		"name": "Publicacion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42553440"
+	},
+	"item": [
+		{
+			"name": "POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"titulo\": \"Mi primer post\",\r\n  \"descripcion\": \"Contenido de prueba\",\r\n  \"curso\": \"Taller\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/blogaprendizaje/v1/publicacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"blogaprendizaje",
+						"v1",
+						"publicacion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
